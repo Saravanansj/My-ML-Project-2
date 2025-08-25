@@ -1,0 +1,10 @@
+⚠️ WARNING: EDUCATIONAL USE ONLY ⚠️
+This notebook is strictly for EDUCATIONAL and RESEARCH purposes only.
+
+Do NOT use it for:
+- Professional medical advice
+- Diagnosis
+- Treatment
+- Safety-critical decision making
+
+The authors are NOT responsible for any misuse or damages.
