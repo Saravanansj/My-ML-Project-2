@@ -1,5 +1,17 @@
-**🩺 Provide Better Diabetes Treatment using Reinforcement Learning
-📌 Introduction**
+**Provide Better Diabetes Treatment using Reinforcement Learning**
+
+**This software is provided strictly for educational and research purposes only.
+It must NOT be used as a substitute for:
+
+Professional medical advice
+
+Diagnosis
+
+Treatment
+
+Safety-critical decision making   **
+
+**Introduction**
 
 This project demonstrates the application of Reinforcement Learning (RL) algorithms — Q-Learning and SARSA — to optimize diabetes treatment decisions. By modeling patient health states and treatment actions as a Markov Decision Process (MDP), the system learns an optimal treatment strategy to improve patient outcomes.
 
@@ -119,4 +131,6 @@ Project developed as part of academic work at Government College of Engineering,
 
 Inspired by Sutton & Barto’s Reinforcement Learning textbook.
 
-Built for educational purposes only — not a substitute for professional medical advice.
+**Disclaimer**
+
+**Built for educational purposes only — not a substitute for professional medical advice.**
