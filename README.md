@@ -5,7 +5,7 @@ This project demonstrates the application of Reinforcement Learning (RL) algorit
 
 The model trains an agent to decide whether to recommend Insulin, Oral Medication, Diet Adjustment, or Exercise, depending on whether the patient’s diabetes is Controlled or Uncontrolled.
 
-** Abstract**
+**Abstract**
 
 The project implements Q-Learning (off-policy) and SARSA (on-policy) algorithms to train an agent that recommends diabetes treatments.
 
