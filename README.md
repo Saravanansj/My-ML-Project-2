@@ -1,15 +1,15 @@
 **Provide Better Diabetes Treatment using Reinforcement Learning**
 
-**This software is provided strictly for educational and research purposes only.
-It must NOT be used as a substitute for:
+# ⚠ WARNING: Educational Purpose Only
 
-Professional medical advice
+# ⚠️ **IMPORTANT WARNING**
 
-Diagnosis
-
-Treatment
-
-Safety-critical decision making   **
+## **This software is provided strictly for educational and research purposes only.**  
+## **It must NOT be used as a substitute for:**  
+- **Professional medical advice**  
+- **Diagnosis**  
+- **Treatment**  
+- **Safety-critical decision making**
 
 **Introduction**
 
