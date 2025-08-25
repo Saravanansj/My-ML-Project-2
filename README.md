@@ -1,11 +1,11 @@
-🩺 Provide Better Diabetes Treatment using Reinforcement Learning
-📌 Introduction
+**🩺 Provide Better Diabetes Treatment using Reinforcement Learning
+📌 Introduction**
 
 This project demonstrates the application of Reinforcement Learning (RL) algorithms — Q-Learning and SARSA — to optimize diabetes treatment decisions. By modeling patient health states and treatment actions as a Markov Decision Process (MDP), the system learns an optimal treatment strategy to improve patient outcomes.
 
 The model trains an agent to decide whether to recommend Insulin, Oral Medication, Diet Adjustment, or Exercise, depending on whether the patient’s diabetes is Controlled or Uncontrolled.
 
-📚 Abstract
+** Abstract**
 
 The project implements Q-Learning (off-policy) and SARSA (on-policy) algorithms to train an agent that recommends diabetes treatments.
 
@@ -19,7 +19,7 @@ Reward Structure: Reflects the effectiveness of treatments (positive for effecti
 
 The system allows the user to select an algorithm, train the model, view the learned Q-table, and receive treatment recommendations.
 
-⚙️ Reinforcement Learning Concepts
+**Reinforcement Learning Concepts**
 
 Agent → Learns and makes treatment decisions
 
@@ -39,8 +39,8 @@ Exploration vs Exploitation → Epsilon-greedy strategy to balance new discoveri
 
 Discount Factor (γ) → Importance of future rewards
 
-🧠 Algorithms Implemented
-🔹 Q-Learning (Off-Policy)
+**Algorithms Implemented**
+**Q-Learning (Off-Policy)**
 
 Updates Q-values using the maximum future reward, regardless of actions actually taken.
 
@@ -50,7 +50,7 @@ Update rule:
 
 Q(s,a) ← Q(s,a) + α [ R + γ max_a' Q(s’,a’) – Q(s,a) ]
 
-🔹 SARSA (On-Policy)
+**SARSA (On-Policy)**
 
 Updates Q-values based on the action actually taken under the current policy.
 
@@ -60,7 +60,7 @@ Update rule:
 
 Q(s,a) ← Q(s,a) + α [ R + γ Q(s’,a’) – Q(s,a) ]
 
-🏗️ Algorithm Implementation
+**Algorithm Implementation**
 
 Q-Table Initialization → 2D array with zeros
 
@@ -72,7 +72,7 @@ Transition Function → Defines how patient states change based on actions (e.g.
 
 Action Selection → Epsilon-greedy policy
 
-📊 Prediction Comparison
+**Prediction Comparison**
 Aspect	Q-Learning	SARSA
 Convergence	Faster, off-policy	Slower, on-policy
 Policy Outcome	Aggressive, favors max reward	Conservative, reflects actual actions
@@ -81,7 +81,7 @@ Stability	Less stable, may oscillate	More stable, smoother adjustments
 Example Output	Suggested Exercise for Controlled	Suggested Insulin for Controlled
 
 
-📈 Sample Outputs
+**Sample Outputs**
 
 Q-Learning Example:
 
@@ -100,7 +100,7 @@ Learned Q-table:
 
 Suggested treatment for 'Controlled': Insulin
 
-🔮 Conclusion
+**Conclusion**
 
 Q-Learning → Aggressive, fast optimization, favors maximizing long-term rewards. In this setup, often suggested Exercise for controlled patients.
 
@@ -109,25 +109,13 @@ SARSA → More conservative, experience-driven, ensures stability. Frequently su
 👉 Q-Learning is ideal for quick optimization.
 👉 SARSA ensures stable, experience-based decisions.
 
-🚀 Future Improvements
-
-Use real-world medical datasets instead of simulated transitions
-
-Expand states (e.g., Mildly Uncontrolled, Severely Uncontrolled)
-
-Add more treatment options (e.g., Combination Therapy)
-
-Apply Deep Q-Networks (DQN) for scalability
-
-Deploy as a Flask/Django web API for integration with healthcare apps
-
-📜 License
+**License**
 
 This project is licensed under the MIT License.
 
-🙏 Acknowledgments
+**Acknowledgments**
 
-Project developed as part of academic work at Government College of Engineering, Bodinayakanur.
+Project developed as part of academic work at Government College of Engineering, Bodinayakanur(In TVS training and Services).
 
 Inspired by Sutton & Barto’s Reinforcement Learning textbook.
 
