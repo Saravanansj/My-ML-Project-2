@@ -18,13 +18,13 @@ They may not be fully correct or complete, so please **review and verify them be
 Feedback, suggestions, reports of mistakes, and ideas for improvement are always welcome to help enhance the project.
 
 
-##**Introduction**
+## Introduction
 
 This project demonstrates the application of Reinforcement Learning (RL) algorithms — Q-Learning and SARSA — to optimize diabetes treatment decisions. By modeling patient health states and treatment actions as a Markov Decision Process (MDP), the system learns an optimal treatment strategy to improve patient outcomes.
 
 The model trains an agent to decide whether to recommend Insulin, Oral Medication, Diet Adjustment, or Exercise, depending on whether the patient’s diabetes is Controlled or Uncontrolled.
 
-**Abstract**
+## Abstract 
 
 The project implements Q-Learning (off-policy) and SARSA (on-policy) algorithms to train an agent that recommends diabetes treatments.
 
@@ -58,7 +58,7 @@ Exploration vs Exploitation → Epsilon-greedy strategy to balance new discoveri
 
 Discount Factor (γ) → Importance of future rewards
 
-**Algorithms Implemented**
+## Algorithms Implemented
 **Q-Learning (Off-Policy)**
 
 Updates Q-values using the maximum future reward, regardless of actions actually taken.
