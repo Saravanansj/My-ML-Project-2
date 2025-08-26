@@ -12,14 +12,10 @@
 - **Safety-critical decision making**
 
 
-
 ## Disclaimer
-The solutions in this project are provided based on my knowledge and references from online sources.  
-They may not be fully complete or entirely correct.  
-
-Please **review, verify, and use them according to your own understanding**.  
-If you find any mistakes or improvements, feel free to open an **Issue** or share your feedback.  
-Thank you!
+The solutions and implementations in this project are provided based on my knowledge and online references.  
+They may not be fully correct or complete, so please **review and verify them before use**.  
+Feedback, suggestions, reports of mistakes, and ideas for improvement are always welcome to help enhance the project.
 
 
 ##**Introduction**
