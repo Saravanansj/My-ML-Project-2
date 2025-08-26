@@ -11,6 +11,17 @@
 - **Treatment**  
 - **Safety-critical decision making**
 
+
+
+## Disclaimer
+The solutions in this project are provided based on my knowledge and references from online sources.  
+They may not be fully complete or entirely correct.  
+
+Please **review, verify, and use them according to your own understanding**.  
+If you find any mistakes or improvements, feel free to open an **Issue** or share your feedback.  
+Thank you!
+
+
 **Introduction**
 
 This project demonstrates the application of Reinforcement Learning (RL) algorithms — Q-Learning and SARSA — to optimize diabetes treatment decisions. By modeling patient health states and treatment actions as a Markov Decision Process (MDP), the system learns an optimal treatment strategy to improve patient outcomes.
